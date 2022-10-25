@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 /**, *::before, *::after{*/
 /*    scrollbar-width: 0 !important;*/
@@ -16,7 +17,8 @@ html {
 /*    background: #ffffff;*/
 /*    border: 0 solid #10141E;*/
 /*}*/
-/*body {*/
-/*    background-color: #10141E;*/
-/*    overflow-x: hidden;*/
-/*}*/
+body {
+    background-color: #150707;
+    height: 100%;
+    overflow-x: hidden;
+}
