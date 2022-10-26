@@ -1,13 +1,15 @@
 import TopNav from "../components/TopNav";
 import MiddleNav from "../components/MiddleNav";
 import Popular from "../components/Popular";
+import BottomNav from "../components/BottomNav";
 
 const Home = () => {
     return (
-        <div>
+        <div className="relative">
             <TopNav />
-            <MiddleNav/>
-            <Popular/>
+            <MiddleNav />
+            <Popular />
+            <BottomNav />
         </div>
     );
 }
