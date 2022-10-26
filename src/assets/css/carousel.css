@@ -1,0 +1,22 @@
+.slick-slider .slick-prev, .slick-slider .slick-next {
+    display: none !important;
+    position: absolute;
+}
+.slick-initialized .slick-slide {
+    height: 25.9375rem;
+    transition: all 150ms;
+}
+.slick-initialized .slick-slide div {
+    margin: 0 0.6rem;
+    -webkit-transform: translateX(-0.1875rem);
+    -moz-transform: translateX(-0.1875rem);
+    -ms-transform: translateX(-0.1875rem);
+    -o-transform: translateX(-0.1875rem);
+    transform: translateX(-0.1875rem);
+}
+.slick-initialized .slick-slide div, .slick-initialized .slick-slide div div{
+    height: 100%;
+}
+.slick-dots {
+    display: none !important;
+}
