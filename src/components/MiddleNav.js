@@ -16,7 +16,7 @@ export default class MiddleNav extends Component {
                              style={({ isActive }) =>
                                  isActive
                                      ? { color: '#ffffff', }
-                                     : { color: '#AC7784' }
+                                     : { color: 'rgba(255,255,255,0.5)' }
                              } end>
                             Popular
                         </NavLink>
@@ -24,7 +24,7 @@ export default class MiddleNav extends Component {
                              style={({ isActive }) =>
                                  isActive
                                      ? { color: '#ffffff', }
-                                     : { color: '#AC7784' }
+                                     : { color: 'rgba(255,255,255,0.5)' }
                              } end>
                             Newest
                         </NavLink>
@@ -32,7 +32,7 @@ export default class MiddleNav extends Component {
                                  style={({ isActive }) =>
                                      isActive
                                          ? { color: '#ffffff', }
-                                         : { color: '#AC7784' }
+                                         : { color: 'rgba(255,255,255,0.5)' }
                                  } end>
                             Recommended
                         </NavLink>
