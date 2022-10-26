@@ -18,6 +18,8 @@ html {
 /*    border: 0 solid #10141E;*/
 /*}*/
 body {
+    background-image: linear-gradient(to bottom right, #FF4359, #AA1439, #68192F, #53192A, #000000);
+    background-repeat: no-repeat;
     background-color: #150707;
     height: 100%;
     overflow-x: hidden;
