@@ -3,8 +3,7 @@
     position: absolute;
 }
 .slick-initialized .slick-slide {
-    height: 25.9375rem;
-    transition: all 150ms;
+    height: 29.8125rem;
 }
 .slick-initialized .slick-slide div {
     margin: 0 0.6rem;
