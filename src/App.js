@@ -1,6 +1,7 @@
 import Home from "./pages/Home";
 import Newest from "./pages/Newest";
 import Recommended from "./pages/Recommended";
+import Profile from "./pages/Profile";
 import GameDetails from "./pages/GameDetails";
 import './assets/css/global.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
@@ -15,6 +16,7 @@ function App() {
                   <Route path="/newest" element={<Newest title="Newest" />}></Route>
                   <Route path="/recommended" element={<Recommended title="Recommended" />}></Route>
                   <Route path={'/:id'} element={<GameDetails title="Game Details" />}></Route>
+                  <Route path="/profile" element={<Profile title="Profile" />}></Route>
               </Routes>
           </main>
       </Router>
