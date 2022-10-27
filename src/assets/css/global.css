@@ -1,21 +1,21 @@
 html {
     scroll-behavior: smooth;
 }
-/**, *::before, *::after{*/
-/*    scrollbar-width: 0 !important;*/
-/*    scrollbar-color: #ffffff;*/
-/*}*/
-/*::-webkit-scrollbar{*/
-/*    display: none !important;*/
-/*    width: 0 !important;*/
-/*    background-color: #10141E;*/
-/*}*/
-/*::-webkit-scrollbar-thumb{*/
-/*    display: none !important;*/
-/*    border-radius: 0.375rem;*/
-/*    background: #ffffff;*/
-/*    border: 0 solid #10141E;*/
-/*}*/
+*, *::before, *::after{
+    scrollbar-width: 0 !important;
+    scrollbar-color: transparent !important;
+}
+::-webkit-scrollbar{
+    display: none !important;
+    width: 0 !important;
+    background-color: transparent !important;
+}
+::-webkit-scrollbar-thumb{
+    display: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    border: 0 solid transparent !important;
+}
 body {
     background-color: #150707;
     overflow-x: hidden;
@@ -23,13 +23,20 @@ body {
 }
 #animateWrapper {
     transform: scale(0);
-    animation: test 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation: scale-up 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
     transition: all 0.3s;
 }
 #animateLogo {
     animation: tilt-shaking 0.3s linear 0.5s 3;
 }
-@keyframes test {
+#animateText {
+    animation: text-change 2s linear forwards;
+}
+@keyframes text-change {
+    0% { color: #ffffff; }
+    100% { color: #A7A7A7; }
+}
+@keyframes scale-up {
     0% { transform: scale(0); }
     100% { transform: scale(1); }
 }
