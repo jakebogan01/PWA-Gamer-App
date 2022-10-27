@@ -32,6 +32,17 @@ body {
 #animateText {
     animation: text-change 2s linear forwards;
 }
+#hideSplashScreen {
+    animation: hide-splash-screen 0.3s ease 2s forwards;
+}
+@keyframes hide-splash-screen {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 @keyframes text-change {
     0% { color: #ffffff; }
     100% { color: #A7A7A7; }
