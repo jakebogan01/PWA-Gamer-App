@@ -6,7 +6,7 @@ export default class MiddleNav extends Component {
         return (
             <section>
                 <div className="px-[1.5625rem] pt-[1.5625rem]">
-                    <span className="font-semibold text-[0.5625rem] text-[#D9D9D9]">Let’s Explore</span>
+                    <span className="font-semibold text-[0.5625rem] text-white">Let’s Explore</span>
                     <h1 className="font-bold text-[2.5rem] leading-none">Best Games</h1>
                 </div>
 
